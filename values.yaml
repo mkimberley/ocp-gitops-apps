@@ -1,0 +1,11 @@
+applications:
+  - name: openshift-virtualisation
+    namespace: openshift-gitops
+    source:
+      repoURL: 'https://github.com/mkimberley/ocpv-quickstart.git'
+      targetRevision: HEAD
+  - name: advanced-cluster-management
+    namespace: openshift-gitops
+    source:
+      repoURL: 'https://github.com/mkimberley/ocp-acm-quickstart.git'
+      targetRevision: HEAD
