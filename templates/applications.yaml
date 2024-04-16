@@ -15,4 +15,5 @@ spec:
     targetRevision: {{ .source.targetRevision }}
   syncPolicy:
     automated: {}
+---
 {{- end }}
